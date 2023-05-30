@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Julius+Sans+One&family=Montserrat&family=Outfit:wght@300&family=Poppins:wght@500&family=Satisfy&family=Ubuntu+Mono&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Outfit', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.qrcode--card {
+  background-color: #d0e5ee;
+  height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.card { 
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  width: 30rem;
 }
 
-.App-link {
-  color: #61dafb;
+.card h4 {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card small {
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 30px;
 }
