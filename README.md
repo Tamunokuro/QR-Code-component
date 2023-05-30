@@ -2,7 +2,6 @@
 > This is a solution to the QR Code component front-end mentor.io challenge
 
 # ⚒️ Built with
-## Tech stack
 <details>
   <summary>Client</summary>
   <ul>
